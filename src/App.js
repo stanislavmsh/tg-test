@@ -9,15 +9,11 @@ function App() {
     tg.ready()
   },[])
 
-  const onClose = () => {
-    tg.close();
-  }
-
 
   return (
     <div className="App">
       TEST
-      <button onClick={onClose}> Закрыть </button>
+      {/* <button onClick={onClose}> Закрыть </button> */}
     </div>
   );
 }
