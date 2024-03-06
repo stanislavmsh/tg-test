@@ -2,6 +2,7 @@
 import './App.css';
 import { useEffect } from 'react';
 import { useTelegram } from './hooks/useTelegram';
+import Header from './components/header/header';
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
 
   return (
     <div className="App">
-      TEST
+      
+      <Header />
       {/* <button onClick={onClose}> Закрыть </button> */}
     </div>
   );
